@@ -1,0 +1,38 @@
+{
+	"excludedAttributeNames": [ ],
+	"version": "1.0",
+	"dataFormat": "CSV",
+	"rowId": null,
+	"dataFileContainsHeader": true,
+	"attributes": [
+		{
+			"attributeName": "timestamp",
+			"attributeType": "NUMERIC"
+		},
+		{
+			"attributeName": "tripId",
+			"attributeType": "CATEGORICAL"
+		},
+		{
+			"attributeName": "route",
+			"attributeType": "CATEGORICAL"
+		},
+		{
+			"attributeName": "day",
+			"attributeType": "CATEGORICAL"
+		},
+		{
+			"attributeName": "timeToReachExpressStation",
+			"attributeType": "NUMERIC"
+		},
+		{
+			"attributeName": "timeToReachDestination",
+			"attributeType": "NUMERIC"
+		},
+		{
+			"attributeName": "Label",
+			"attributeType": "BINARY"
+		}
+	],
+	"targetAttributeName": "Label"
+}
